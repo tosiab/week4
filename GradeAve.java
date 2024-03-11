@@ -20,6 +20,7 @@ public class GradeAve {
         grade5 = input.nextInt();
         average = ((grade1+grade2+grade3+grade4+grade5)/5);
         System.out.println("The grade average is: "+average);
+        input.close();
 
     }
 }

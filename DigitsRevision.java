@@ -11,6 +11,7 @@ public class DigitsRevision {
         num3 = (number%10);
         num2 = (((number%100)-num3)/10);
         num1 = ((number%1000)/100);
+        input.close();
   
         System.out.println("The hundreds digit is " + num1);
         System.out.println("The tens digit is " + num2);
